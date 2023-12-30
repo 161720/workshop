@@ -1,0 +1,105 @@
+*{
+   
+}
+#a{
+    height: 60px;
+    width: 170px;
+    background-image: url(logo.png);
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    margin-left: 43%;
+    margin-right: 40%;
+}
+.ab{
+    height: 300px;
+    width: 300px;
+    border: 0.25px solid black;
+    margin-left: 35%;
+    margin-right: 40%;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 26px;
+}
+.a1{
+    height: 50px;
+    width: 150px;
+    margin-top: 10%;
+    font-size: 28px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a2{
+    height: 50px;
+    width: 225px;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a2 input{
+    margin-top: 10px;
+    width: 250px;
+   height: 20px;
+}
+.a3 button{
+    background-color: rgb(248, 216, 7);
+    border-top-left-radius: 6px ;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-color: transparent;
+    padding-left: 35%;
+    padding-right: 35%;
+    height: 30px;
+    margin-top: 10px;
+}
+.a3{
+   width: 295px;
+   margin-top: 10px;
+   margin-left: 14px;
+
+}
+.a4{
+    width: 300px;
+   margin-top: 10px;
+   margin-left: 14px;
+   font-size: 14px;
+}
+.ab ul{
+    margin-top: 50px;
+    font-size: 14px;
+    margin-right: 60px;
+    padding-left: 10px;
+}
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 0.25px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background:black;
+    position: relative
+  }.hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }.hr-lines:after{
+    content:" ";
+    height: 0.25px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  .hr-lines{
+    margin-top:20px;
+  }
